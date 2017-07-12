@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.nasa_api.nasa_api.sound.apiTest">
+        <methods>
+          <include name="getpropertCount" invocation-numbers="0"/>
+          <include name="getcontentType" invocation-numbers="0"/>
+          <include name="arraycount" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="testValidResponse" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.nasa_api.nasa_api.sound.apiTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
